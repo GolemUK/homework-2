@@ -57,17 +57,16 @@ body {
     letter-spacing: 0.02em;
     color: #212121;
 }
-.mail:hover, 
-.tel:hover, 
-.nav-link:hover,
-.footer-link:hover {
+.mail-a:hover, 
+.tel-a:hover, 
+.nav-link:hover {
     color: #2196F3;
 }
 .mail {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -75,9 +74,25 @@ body {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+.mail-a {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.tel-a {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
 }
 .section-a {
     background: #2F303A;
@@ -141,6 +156,7 @@ body {
 .section-d-text {
 }
 .section-d-subtitle {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
@@ -171,6 +187,7 @@ body {
 }
 .btn-title {
     font-family: 'Roboto';
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
